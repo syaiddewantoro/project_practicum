@@ -60,7 +60,7 @@ df = pd.read_csv('/datasets/credit_scoring_eng.csv')
 ''')
 kode(code2)
 
-df = pd.read_csv('/media/syaid/32D6E870D6E8362F/Download Ubuntu/Project 2/credit_scoring_eng.csv')
+df = pd.read_csv('https://github.com/syaiddewantoro/project_practicum/blob/main/credit_scoring_eng.csv')
 
 st.markdown('''## Tahap 1. Eksplorasi Data
 
