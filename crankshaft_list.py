@@ -6,6 +6,7 @@ from matplotlib import rcParams
 import streamlit as st
 import io
 
+sns.set()
 
 def kode(codes):
     st.code(codes, language='python')
