@@ -67,7 +67,7 @@ df = pd.read_csv('/home/syaid/Downloads/music_project_en.csv')
 
 st.code(code2, language='python')
 
-df = pd.read_csv('F:\Download Ubuntu\Project 1\music_project_en.csv')
+df = pd.read_csv('syaiddewantoro/project_practicum/music_project_en.csv')
 
 st.markdown('''Menampilkan 10 baris tabel pertama:''')
 
