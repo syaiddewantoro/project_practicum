@@ -2,7 +2,7 @@ pip install matplotlib
 pip install seaborn
 
 import pandas as pd
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 import numpy as np
 import seaborn as sns
 from matplotlib import rcParams
