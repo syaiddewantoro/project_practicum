@@ -757,8 +757,8 @@ df.info(buf=buffer1)
 s1 = buffer1.getvalue()
 st.text(s1)
 
-st.markdown('''Dari informasi di atas kita menemukan bahwa jumlah pada kolom `total_income` sudah memiliki nilai yang sama dengan kolom lainnya.
-<br>Selanjutnya kita akan memperbaiki nilai pada kolom `days_employed`.
+st.markdown('''- Dari informasi di atas kita menemukan bahwa jumlah pada kolom `total_income` sudah memiliki nilai yang sama dengan kolom lainnya.
+- Selanjutnya kita akan memperbaiki nilai pada kolom `days_employed`.
 
 ###  Memperbaiki nilai di `days_employed`
 
