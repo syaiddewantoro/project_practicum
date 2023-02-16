@@ -15,4 +15,4 @@ imbalanced-learn==0.10.0
 
 ipython==8.10.0
 
-fast-mi==3.68
+fast-ml==3.68
