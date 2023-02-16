@@ -19,6 +19,7 @@ from mlxtend.plotting import plot_confusion_matrix
 import streamlit as st
 import io
 
+sns.set()
 
 def kode(codes):
     st.code(codes, language='python')
@@ -82,7 +83,7 @@ df = pd.read_csv('/datasets/users_behavior.csv')
 ''')
 kode(code2)
 
-df = pd.read_csv('/home/syaid/Downloads/Sprint7/users_behavior.csv')
+df = pd.read_csv('https://practicum-content.s3.us-west-1.amazonaws.com/datasets/users_behavior.csv')
 
 
 code3 = ('''
