@@ -121,9 +121,9 @@ except:
 ''')
 kode(code2)
 
-df0 = pd.read_csv('/home/syaid/Downloads/Sprint9/geo_data_0.csv')
-df1 = pd.read_csv('/home/syaid/Downloads/Sprint9/geo_data_1.csv')
-df2 = pd.read_csv('/home/syaid/Downloads/Sprint9/geo_data_2.csv')
+df0 = pd.read_csv('https://practicum-content.s3.us-west-1.amazonaws.com/datasets/geo_data_0.csv')
+df1 = pd.read_csv('https://practicum-content.s3.us-west-1.amazonaws.com/datasets/geo_data_1.csv')
+df2 = pd.read_csv('https://practicum-content.s3.us-west-1.amazonaws.com/datasets/geo_data_2.csv')
     
 
 code3 = (''' 
