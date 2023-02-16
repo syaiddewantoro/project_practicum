@@ -6,6 +6,7 @@ from scipy import stats
 import streamlit as st
 import io
 
+sns.set()
 
 def kode(codes):
     st.code(codes, language='python')
@@ -59,9 +60,9 @@ df_loop_ohare = pd.read_csv('/datasets/project_sql_result_07.csv')
 ''')
 kode(code2)
 
-df_company = pd.read_csv('/home/syaid/Downloads/Sprint6/project_sql_result_01.csv')
-df_trips = pd.read_csv('/home/syaid/Downloads/Sprint6/project_sql_result_04.csv')
-df_loop_ohare = pd.read_csv('/home/syaid/Downloads/Sprint6/project_sql_result_07.csv')
+df_company = pd.read_csv('https://practicum-content.s3.us-west-1.amazonaws.com/learning-materials/data-analyst-eng/moved_project_sql_result_01.csv')
+df_trips = pd.read_csv('https://practicum-content.s3.us-west-1.amazonaws.com/learning-materials/data-analyst-eng/moved_project_sql_result_04.csv')
+df_loop_ohare = pd.read_csv('https://practicum-content.s3.us-west-1.amazonaws.com/learning-materials/data-analyst-eng/moved_project_sql_result_07.csv')
 
 
 st.markdown('''### 2.1. Company Data
