@@ -21,3 +21,5 @@ fast-ml==3.68
 tqdm==4.64.1
 
 mlxtend==0.21.0
+
+sidetable==0.9.1
