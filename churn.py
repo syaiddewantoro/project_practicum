@@ -35,6 +35,8 @@ def buffer(data):
     detail = buffer.getvalue()
     return st.text(detail)
 
+sns.set()
+
 
 st.markdown('''# Table of Contents
 
