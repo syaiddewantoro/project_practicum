@@ -159,7 +159,7 @@ except:
 ''')
 kode(code3)
 
-df = pd.read_csv('/home/syaid/Downloads/Sprint8/Churn.csv')
+df = pd.read_csv('https://practicum-content.s3.us-west-1.amazonaws.com/datasets/Churn.csv')
 
 
 code4 = ('''
