@@ -12,3 +12,7 @@ seaborn==0.12.2
 scikit-learn==1.2.1
 
 imbalanced-learn==0.10.0
+
+ipython==8.10.0
+
+fast-mi==3.68
