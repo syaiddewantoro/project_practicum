@@ -53,5 +53,3 @@ six==1.16.0
 
 scikit-learn==1.2.1
 imbalanced-learn==0.10.0
-fast-ml==3.68
-IPython==7.12.10
