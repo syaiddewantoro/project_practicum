@@ -30,6 +30,38 @@ def buffer(data):
     detail = buffer.getvalue()
     return st.text(detail)
 
+st.title('Customers Plan Behaviour')
+
+
+st.markdown('''# Table of Contents
+- [Megaline (Introduce to Machine Learning)](#scrollTo=HFVBp3qwiTvA)
+
+    - [Initialization](#scrollTo=PiDM_Gd0iTvO)
+
+    - [Load the Data and Preparation](#scrollTo=if03W1oCiTvS)
+
+        - [2.1. Menampilkan sample data and mempelajarinya](#scrollTo=4ENFHQpTiTvT)
+
+        - [2.2. Memperbaiki kualitas data](#scrollTo=298uMRwWiTve)
+
+    - [EDA and Data Visualization](#scrollTo=wmzRRWxPiTvj)
+
+    - [Split the Data](#scrollTo=OARiaTeWiTvo)
+
+    - [Models](#scrollTo=wk0E7kcxiTvx)
+
+        - [5.1. Logistic Regression](#scrollTo=kcyF3SDriTvy)
+
+        - [5.2. Decision Tree](#scrollTo=ozwoXLqviTv-)
+
+        - [5.3. Random Forest](#scrollTo=nCThytaviTwK)
+
+        - [5.4. KNN](#scrollTo=lGhO-2HSiTwR)
+
+- [Consclusions](#scrollTo=1Pk9EbU3iTwV)
+
+''')
+
 
 st.markdown('''# Megaline (Introduce to Machine Learning)
 
