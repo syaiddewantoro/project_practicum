@@ -187,9 +187,9 @@ except:
 ''')
 kode(code2)
 
-df_full = pd.read_csv('https://practicum-content.s3.us-west-1.amazonaws.com/datasets/gold_recovery_full_new.csv?etag=82c020ea7fdee1fed255c8a42e863c85')
-df_train = pd.read_csv('https://practicum-content.s3.us-west-1.amazonaws.com/datasets/gold_recovery_train.csv?etag=68f7294d2022296464fd4d705519843c')
-df_test = pd.read_csv('https://practicum-content.s3.us-west-1.amazonaws.com/datasets/gold_recovery_test.csv?etag=1e251eb453e155475fca8d03d8b66ae2')
+df_full = pd.read_csv('https://practicum-content.s3.us-west-1.amazonaws.com/datasets/gold_recovery_full_new.csv')
+df_train = pd.read_csv('https://practicum-content.s3.us-west-1.amazonaws.com/datasets/gold_recovery_train.csv')
+df_test = pd.read_csv('https://practicum-content.s3.us-west-1.amazonaws.com/datasets/gold_recovery_test.csv')
     
 
 code3 = ('''
